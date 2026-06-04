@@ -16,7 +16,6 @@ async function renderApp() {
 
   const fullHtml = htmlCards.join("");
 
-  // ✨ ĐÂY LÀ DÒNG QUAN TRỌNG: Tìm cái thẻ có id là "user-list" trên file HTML và thay thế nội dung của nó
   document.getElementById("user-list").innerHTML = fullHtml;
 }
 
